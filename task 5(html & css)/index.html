@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header Implementation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Top Nav -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-left">
+            <ul class="contact-info">
+              <li>
+                <a href="#"><i class="phone-icon"></i> +91 987 654 3210</a>
+              </li>
+              <li>
+                <a href="#"><i class="whatsapp-icon"></i> +91 987 654 3210</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-top-center">
+            <p>World's Fastest Online Shopping Destination</p>
+          </div>
+          <div class="header-top-right">
+            <a href="faq.html">Help?</a>
+            <a href="track-order.html">Track Order?</a>
+            <div class="dropdown">
+              <button>English</button>
+              <ul class="dropdown-menu">
+                <li><a href="#">English</a></li>
+                <li><a href="#">Italiano</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button>Dollar</button>
+              <ul class="dropdown-menu">
+                <li><a href="#">USD $</a></li>
+                <li><a href="#">EUR €</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Middle Nav -->
+      <div class="header-middle">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="./images/logo.png" alt="Site Logo"
+            /></a>
+          </div>
+          <div class="search-bar">
+            <form action="#">
+              <input type="text" placeholder="Search Products..." />
+              <button type="submit"><i class="search-icon"></i></button>
+            </form>
+          </div>
+          <div class="header-buttons">
+            <a href="#"><i class="user-icon"></i> Login</a>
+            <a href="#"
+              ><i class="wishlist-icon"></i> Wishlist <span>3</span></a
+            >
+            <a href="#"><i class="cart-icon"></i> Cart <span>3</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Nav | Bottom Nav -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="nav-bar">
+            <button class="nav-button">
+              <i class="categories-icon"></i> All Categories
+              <i class="dropdown-icon"></i>
+            </button>
+
+            <nav class="main-nav">
+              <ul>
+                <li>
+                  <a href="#">Home <i class="dropdown-icon"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Grocery</a></li>
+                    <li><a href="#">Vegetables</a></li>
+                    <li><a href="#">Packages</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">Categories <i class="dropdown-icon"></i></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Classic <i class="dropdown-icon"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Product Page</a></li>
+                        <li><a href="#">Product Prices</a></li>
+                        <li><a href="#">Product Ratings</a></li>
+                        <li><a href="#">Product Review</a></li>
+                        <li><a href="#">New Products</a></li>
+                        <li><a href="#">Mostly Purchased Product</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Banner <i class="dropdown-icon"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Organic</a></li>
+                        <li><a href="#">Fruits</a></li>
+                        <li><a href="#">Vegetables</a></li>
+                        <li><a href="#">Fast Food</a></li>
+                        <li><a href="#">New Snacks</a></li>
+                        <li><a href="#">Drinks</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Columns <i class="dropdown-icon"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">New Snacks</a></li>
+                        <li><a href="#">Drinks</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">List <i class="dropdown-icon"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                        <li><a href="#">Option 4</a></li>
+                        <li><a href="#">Option 5</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">Products <i class="dropdown-icon"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Product Page</a></li>
+                        <li><a href="#">Product Prices</a></li>
+                        <li><a href="#">Product Ratings</a></li>
+                        <li><a href="#">Product Review</a></li>
+                        <li><a href="#">New Products</a></li>
+                        <li><a href="#">Mostly Purchased Product</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">Blog <i class="dropdown-icon"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Organic</a></li>
+                    <li><a href="#">Fruits</a></li>
+                    <li><a href="#">Vegetables</a></li>
+                    <li><a href="#">Fast Food</a></li>
+                    <li><a href="#">New Snacks</a></li>
+                    <li><a href="#">Drinks</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">Others <i class="dropdown-icon"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">New Snacks</a></li>
+                    <li><a href="#">Drinks</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">Offers <i class="offers-icon"></i></a>
+                </li>
+              </ul>
+            </nav>
+            <button class="nav-button">
+              <i class="location-icon"></i> New York
+              <i class="dropdown-icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <br /><br />
+    <section>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img
+            src="./images/blueberries.jpg"
+            alt="Organic Vegetables"
+            class="full-width-image"
+          />
+          <div class="content">
+            <h2>Starting at $20.00</h2>
+            <h1>Organic & healthy vegetables</h1>
+            <button class="shop-button">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/cherries.jpg" class="full-width-image" />
+          <div class="content">
+            <h2>Starting at $20.00</h2>
+            <h1>Organic & healthy vegetables</h1>
+            <button class="shop-button">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/milk-splash-img2.jpg" class="full-width-image" />
+          <div class="content">
+            <h2>Starting at $20.00</h2>
+            <h1>Organic & healthy vegetables</h1>
+            <button class="shop-button">Shop Now</button>
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+
+    <!-- Displaying Categories -->
+    <section class="card-section">
+      <div class="color">
+        <div class="card">
+          <div class="discount">30%</div>
+          <i></i>
+          <div>
+            <a>
+              <h3>Fruits</h3>
+              <p>320 items</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="color" style="background-color: rgb(248, 217, 221)">
+        <div class="card">
+          <div class="discount">20%</div>
+          <i></i>
+          <div>
+            <a>
+              <h3>Bakery</h3>
+              <p>65 items</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="color">
+        <div class="card">
+          <div class="discount">25%</div>
+          <i></i>
+          <div>
+            <h3>Vegetables</h3>
+            <p>543 items</p>
+          </div>
+        </div>
+      </div>
+      <div class="color" style="background-color: rgb(248, 217, 221)">
+        <div class="card">
+          <div class="discount">10%</div>
+          <i></i>
+          <div>
+            <h3>Dairy & Milk</h3>
+            <p>48 items</p>
+          </div>
+        </div>
+      </div>
+      <div class="color">
+        <div class="card">
+          <div class="discount">22%</div>
+          <i></i>
+          <div>
+            <h3>Snack & Spice</h3>
+            <p>100 items</p>
+          </div>
+        </div>
+      </div>
+      <div class="color" style="background-color: rgb(248, 217, 221)">
+        <div class="card">
+          <div class="discount">20%</div>
+          <i></i>
+          <div>
+            <h3>Juice & Drinks</h3>
+            <p>90 items</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deal of the day  -->
+    <section class="">
+      <div class="deal-section">
+        <div class="deal-content">
+          <div class="deal-text">
+            <h2>
+              Deal Of The <span style="color: rgb(36, 192, 101)">Day</span>
+            </h2>
+            <p>Don't wait. The time will never be just right</p>
+          </div>
+          <div class="timer">
+            <div class="time-part">
+              <span class="time-number">78</span>
+              <span class="time-label">Days</span>
+            </div>
+            <div class="time-part">
+              <span class="time-number">20</span>
+              <span class="time-colon">:</span>
+            </div>
+            <div class="time-part">
+              <span class="time-number">33</span>
+              <span class="time-colon">:</span>
+            </div>
+            <div class="time-part">
+              <span class="time-number">48</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: center">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/coffie.jpg" alt="Product Image" />
+            <div class="sale-tag">Sale</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Drink</a>
+            <h5 class="product-name">coffie</h5>
+            <div class="rating-price">
+              <div class="rating">★★★☆☆</div>
+              <span class="price">
+                <span class="current-price">200.00</span>
+                <span class="original-price">300.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/Amla_Juice.jpg" alt="Product Image" />
+            <div class="new-tag">New</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Drink</a>
+            <h5 class="product-name">Amla_Juice</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">100.00</span>
+                <span class="original-price">150.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="./images/farmley_peri_peri_makhana.jpg"
+              alt="Product Image"
+            />
+            <div class="sale-tag">Sale</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Snacks</a>
+            <h5 class="product-name">farmley_peri_peri_makhana</h5>
+            <div class="rating-price">
+              <div class="rating">★★★☆☆</div>
+              <span class="price">
+                <span class="current-price">100.00</span>
+                <span class="original-price">120.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/new_real.jpg" alt="Product Image" />
+            <div class="new-tag">New</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Drink</a>
+            <h5 class="product-name">Real Juice</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">80.00</span>
+                <span class="original-price">120.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/healthy_chips.jpg" alt="Product Image" />
+            <div class="sale-tag">Best Seller</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Snacks</a>
+            <h5 class="product-name">healthy Chips</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">30.00</span>
+                <span class="original-price">50.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- 
+section for image of fresh fruits -->
+
+<section>
+  <div class="slideshow-container">
+    <div >
+      <img
+        src="./images/vegetables.jpg"
+        alt="Organic Vegetables"
+        class="full-width-image"
+      />
+      <div class="content">
+        <h2>Starting at $20.00</h2>
+        <h1>Organic & healthy vegetables</h1>
+        <button class="shop-button">Shop Now</button>
+      </div>
+    </div>
+
+   
+
+
+
+</section>
+
+<!-- 
+section for NEW ARIVALS -->
+    <section class="">
+      <div class="deal-section">
+        <div class="deal-content">
+          <div class="deal-text">
+            <h2>New <span style="color: rgb(36, 192, 101)">Arivals</span></h2>
+            <p>Shop online for new arrivals and get free shipping!</p>
+          </div>
+          <div class="timer">
+            <div class="time-part">
+              <a href="#">
+                <span class="time-number">All</span>
+              </a>
+            </div>
+            <div class="time-part">
+              <a href="#">
+                <span class="time-number">Snack & Spices</span>
+              </a>
+            </div>
+            <div class="time-part">
+              <a href="">
+                <span class="time-number">Fruits</span>
+              </a>
+            </div>
+            <div class="time-part">
+              <a href="">
+                <span class="time-number">Vegetables</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: center">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/Monster.jpg" alt="Product Image" />
+            <div class="new-tag">new</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Drink</a>
+            <h5 class="product-name">Monster Energy Drink</h5>
+            <div class="rating-price">
+              <div class="rating">★★★☆☆</div>
+              <span class="price">
+                <span class="current-price">70.00</span>
+                <span class="original-price">90.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/chia_seed.jpg" alt="Product Image" />
+            <div class="new-tag">New</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Snack</a>
+            <h5 class="product-name">Chia Seeds</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">430.00</span>
+                <span class="original-price">500.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="./images/choclate.jpg"
+              alt="Product Image"
+            />
+            <div class="new-tag">new</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Snacks</a>
+            <h5 class="product-name">Choclate nuts</h5>
+            <div class="rating-price">
+              <div class="rating">★★★☆☆</div>
+              <span class="price">
+                <span class="current-price">79.00</span>
+                <span class="original-price">99.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/dabar vita.jpg" alt="Product Image" />
+            <div class="new-tag">New</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Drink</a>
+            <h5 class="product-name">Dabar vita</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">130.00</span>
+                <span class="original-price">150.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/harbalife.jpg" alt="Product Image" />
+            <div class="new-tag">new</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Drink</a>
+            <h5 class="product-name">harbalife</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">150.00</span>
+                <span class="original-price">190.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: center">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/lofood.jpg" alt="Product Image" />
+            <div class="new-tag">new</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Snack</a>
+            <h5 class="product-name">Lofood</h5>
+            <div class="rating-price">
+              <div class="rating">★★★☆☆</div>
+              <span class="price">
+                <span class="current-price">80.00</span>
+                <span class="original-price">100.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/milk.jpg" alt="Product Image" />
+            <div class="new-tag">New</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Drink</a>
+            <h5 class="product-name">Milk</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">100.00</span>
+                <span class="original-price">150.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img
+              src="./images/Oats.jpg"
+              alt="Product Image"
+            />
+            <div class="new-tag">new</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Snacks</a>
+            <h5 class="product-name">OATS</h5>
+            <div class="rating-price">
+              <div class="rating">★★★☆☆</div>
+              <span class="price">
+                <span class="current-price">200.00</span>
+                <span class="original-price">300.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/pop crlsp.jpg" alt="Product Image" />
+            <div class="new-tag">New</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Snack</a>
+            <h5 class="product-name">Pop crlsp</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">40.00</span>
+                <span class="original-price">60.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/troo good.jpg" alt="Product Image" />
+            <div class="new-tag">new</div>
+            <div class="overlay">
+              <a href="#" class="icon wishlist">♥</a>
+              <a href="#" class="icon view">👁</a>
+              <a href="#" class="icon cart">🛒</a>
+              <a href="#" class="icon compare">⚖</a>
+            </div>
+          </div>
+          <div class="product-details">
+            <a href="#" class="category">Drink</a>
+            <h5 class="product-name">Troo Good</h5>
+            <div class="rating-price">
+              <div class="rating">★★★★☆</div>
+              <span class="price">
+                <span class="current-price">150.00</span>
+                <span class="original-price">200.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <img src="./images/logo.png" class="footer-logo" alt="footer logo" />
+          <p class="footer-detail">
+            Grabit is the biggest market of grocery products. Get your daily
+            needs from our store.
+          </p>
+          <div class="app-store">
+            <a href="#"
+              ><img
+                src="./images/android.png"
+                class="app-img"
+                alt="Google Play"
+            /></a>
+            <a href="#"
+              ><img src="./images/apple.png" class="app-img" alt="App Store"
+            /></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Category</h4>
+          <hr />
+          <ul class="footer-links">
+            <li><a href="#">Dairy & Milk</a></li>
+            <li><a href="#">Snack & Spice</a></li>
+            <li><a href="#">Fast Food</a></li>
+            <li><a href="#">Juice & Drinks</a></li>
+            <li><a href="#">Bakery</a></li>
+            <li><a href="#">Seafood</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Company</h4>
+          <hr />
+          <ul class="footer-links">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Legal Notice</a></li>
+            <li><a href="#">Terms & conditions</a></li>
+            <li><a href="#">Secure payment</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Account</h4>
+          <hr />
+          <ul class="footer-links">
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">View Cart</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Become a Vendor</a></li>
+            <li><a href="#">Affiliate Program</a></li>
+            <li><a href="#">Payments</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Contact</h4>
+          <hr />
+          <ul class="footer-links">
+            <li>
+              <span class="icon">📍</span>2548 Broaddus Maple Court,
+              Madisonville KY 4783, USA.
+            </li>
+            <li>
+              <span class="icon">📞</span
+              ><a href="tel:+009876543210">+00 9876543210</a>
+            </li>
+            <li>
+              <span class="icon">✉️</span
+              ><a href="mailto:example@email.com">example@email.com</a>
+            </li>
+          </ul>
+          <div class="footer-social">
+            <a href="#"><span class="icon">📘</span></a>
+            <a href="#"><span class="icon">🐦</span></a>
+            <a href="#"><span class="icon">🔗</span></a>
+            <a href="#"><span class="icon">📷</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom flex">
+        <div class="copyright">
+          Copyright © <span class="highlight">Grabit</span> all rights reserved.
+          Powered by <span class="highlight">Grabit</span>.
+        </div>
+        <div class="payment-methods">
+          <img src="./images/payment.png" alt="payment" />
+        </div>
+      </div>
+    </footer>
+    <script src="./carousal.js"></script>
+  </body>
+</html>
