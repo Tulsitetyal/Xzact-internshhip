@@ -1,0 +1,87 @@
+
+      a {
+        text-decoration: none;
+      }
+      .header-top .dropdown-menu,
+      .header-bottom .dropdown-menu {
+        display: none;
+      }
+      .header-top .dropdown:hover .dropdown-menu,
+      .header-bottom .nav-item:hover .dropdown-menu {
+        display: block;
+      }
+      .header-middle .search-bar input {
+        width: 400px;
+      }
+      .header-buttons a span {
+        background: #ec716d;
+        border-radius: 50%;
+        color: #fff;
+        padding: 0 5px;
+        margin-left: 5px;
+        font-size: 1em;
+        opacity: 0.8;
+      }
+      .nav-button {
+        background-color: #5caf90;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 1em;
+      }
+      .dropdown-icon::after {
+        content: " ▼";
+        font-size: 0.8em;
+        margin-left: 5px;
+      }
+      .categories-icon::before {
+        content: "▤ ";
+        margin-right: 5px;
+      }
+      .offers-icon::before {
+        content: "⏰ ";
+        margin-right: 5px;
+      }
+      .location-icon::before {
+        content: "📍 ";
+        margin-right: 5px;
+      }
+
+      .custom-img {
+        width: 85%;
+        height: 600px;
+      }
+      .time-part span {
+        font-size: xx-large;
+        padding: 4px;
+        color: #777;
+      }
+      .copyright {
+        font-size: 14px;
+      }
+
+      .highlight {
+        color: #4caf50;
+      }
+      .product-card .overlay {
+        transition: opacity 0.3s;
+      }
+
+      .product-card:hover .overlay {
+        opacity: 1;
+      }
+
+      .product-card:hover img {
+        transform: scale(1.1);
+      }
+
+      .sale-tag {
+        z-index: 1;
+      }
+    
+
+      
