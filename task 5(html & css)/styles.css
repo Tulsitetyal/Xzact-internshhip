@@ -354,29 +354,7 @@ body {
     max-width: 100%;
   }
   
-  /* Responsive styles */
-  @media (max-width: 767px) {
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-column {
-      margin-bottom: 20px;
-    }
-  
-    .app-store {
-      flex-direction: row;
-    }
-  
-    .footer-social {
-      justify-content: center;
-    }
-  
-    .footer-social a {
-      margin-bottom: 0;
-    }
-  }
+ 
   
   /* Copyright */
   .copyright {
@@ -855,4 +833,246 @@ body {
 .original-price {
   text-decoration: line-through;
   color: #999;
+}
+
+/* Responsive styles */
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  
+  .search-bar input {
+    width: 300px; /* Adjusted width for tablets */
+  }
+  
+  .header-buttons a {
+    font-size: 1em; /* Reduced size for tablets */
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 95%;
+  }
+  
+  .header-middle {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .search-bar {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+  }
+  
+  .header-buttons {
+    margin-top: 15px;
+  }
+  
+  .header-buttons a {
+    margin-left: 20px;
+    font-size: 0.9em; /* Reduced size for smaller devices */
+  }
+}
+
+@media (max-width: 767px) {
+  .header-top .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .header-top-center {
+    text-align: left;
+  }
+  
+  .header-middle .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .header-buttons {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .header-buttons a {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .main-nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .main-nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .main-nav ul li a {
+    font-size: 0.9em; /* Reduced size for smaller devices */
+  }
+}
+
+@media (max-width: 576px) {
+  .header-top .container {
+    align-items: center;
+  }
+  
+  .header-top-center {
+    text-align: center;
+  }
+  
+  .header-middle .container {
+    align-items: center;
+  }
+  
+  .header-middle {
+    padding: 15px 0;
+  }
+  
+  .search-bar {
+    margin-top: 10px;
+  }
+  
+  .header-buttons {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-buttons a {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 0.8em; /* Reduced size for smaller devices */
+  }
+  
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .main-nav ul li a {
+    font-size: 0.8em; /* Reduced size for smaller devices */
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-column {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social {
+    justify-content: center;
+  }
+  
+  .footer-social a {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-top .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-top-center {
+    text-align: center;
+  }
+  
+  .header-middle .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-middle {
+    padding: 15px 0;
+  }
+  
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+  }
+  
+  .header-buttons {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-buttons a {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 0.8em; /* Reduced size for smaller devices */
+  }
+  
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .main-nav ul li a {
+    font-size: 0.8em; /* Reduced size for smaller devices */
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-column {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social {
+    justify-content: center;
+  }
+  
+  .footer-social a {
+    margin-bottom: 0;
+  }
 }
