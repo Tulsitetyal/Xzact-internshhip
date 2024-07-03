@@ -1,0 +1,4 @@
+Reinstall Dependencies
+   - npm install
+Rebuild the .next Folder
+   - npm run dev
